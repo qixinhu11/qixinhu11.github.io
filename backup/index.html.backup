@@ -1,0 +1,398 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+    <head>
+    <meta name="google-site-verification" content="eoPCGBBxDIK0Ff9Dk_dXsuHMTNzzSEZMbsfO4zriBK8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="shortcut icon" href="./images/doge.ico">
+	<meta name="keywords" content="胡琪鑫, QIXIN HU, Qixin Hu, qixin hu, Qixin HU,
+		约翰霍普金斯大学, Johns Hopkins Univeristy, JHU,
+		华中科技大学, 华中科技, 华科, Huazhong University of Science and Technology, HUST,
+		湖北, 武汉">
+	<meta name="description" content="Qixin Hu&#39;s Home Page">
+    <link rel="stylesheet" href="./assets/css/jemdoc.css" type="text/css">
+    <title>Qixin Hu | 胡琪鑫</title>
+    </head>
+
+
+
+<body>
+
+
+<table><tbody>
+<tr>
+	<td width="670">
+		<div id="toptitle">
+			<h1 style="color:#CB4335">Qixin Hu | 胡琪鑫 🇨🇳</h1>
+		</div>
+
+		<h3>Master Student <a href="http://english.hust.edu.cn/" target="_blank">@HUST</a><br>
+		</h3>
+		
+		<p>
+			IEEE Member | CCF member
+		</p>
+		<p>
+
+			<a href="http://english.hust.edu.cn/" target="_blank">Huazhong University of Science & Technology (HUST)</a><br>
+			1037 Luoyu Road, Wuhan, Hubei, China
+		</p>
+		<p>
+			Email: <a href="mailto:hqx11@hust.edu.cn">hqx11 [at] hust.edu.cn</a> / <a href="mailto:qixinhu98@gmail.com"> qixinhu98 [at] gmail [dot] com</a> 
+		</p>
+		<p>
+			<a href="https://scholar.google.com/citations?user=EqD5GP8AAAAJ&hl=zh-CN&oi=ao" target="_blank">
+				<img src="./assets/pics/google_scholar3.png" height="40px" style="margin-bottom:0px"></a>
+			<a href="https://github.com/qixinhu11" target="_blank">
+				<img src="./assets/pics/github_s.jpg" height="40px" style="margin-bottom:0px"></a>
+			<a href="https://orcid.org/0000-0002-7374-2000" target="_blank">
+				<img src="./assets/pics/orcid.png" height="40px" style="margin-bottom:0px"></a>
+			<a href="assets/files/CV_Hu.pdf">
+				<img src="./assets/pics/cv.png" height="40px" style="margin-bottom:0px"></a>
+		</p>
+		<p>
+			<!--<a href="#news"><font size="3" color="#CB4335"><b>[News]</b></font></a>-->
+			<a href="#news"><font color="#CB4335"><b>[News]</b></font></a>
+			<a href="#pub"><font color="#CB4335"><b>[Publications]</b></font></a>
+			<a href="#exp"><font color="#CB4335"><b>[Experience]</b></font></a>
+			<a href="#edu"><font color="#CB4335"><b>[Education]</b></font></a>
+		</p>
+	</td>
+	<td>
+		<img src="./assets/images/me.jpg" border="0" width="230"><br>
+	</td>
+</tr>
+<tr></tr>
+</tbody></table>
+
+
+
+<h2><a id="C1" ><font color="#CB4335">😀 About Me</font></a></h2>
+
+<p> 
+	<a href="http://english.hust.edu.cn/" target="_blank">
+		<img src="./assets/images/logo/hust.jpeg" height="100px" style="vertical-align:middle">
+	</a>
+	<a href="https://www.jhu.edu/" target="_blank">
+		<img src="./assets/images/logo/jhu.png" height="90px" style="vertical-align:middle">
+	</a>
+
+</p>
+
+<p>	
+	Hi, I am Qixin Hu (胡琪鑫). 
+	I am a master student at <b>Huazhong University of Science and Technology (HUST)</b>. I collaborate with 
+	<b>Prof. <a href="https://www.cs.jhu.edu/~ayuille/">Alan Yuille</a></b> (Bloomberg Distinguished Professor at <a href="https://www.jhu.edu/">Johns Hopkins Univeristy</a>),
+	<b>Dr. <a href="https://www.zongweiz.com/">Zongwei Zhou</a></b> (Post-Doc at <a href="https://www.jhu.edu/">JHU</a>)
+	and <b><a href="https://xwcv.github.io/">Prof. Xinggang Wang</a></b> (Professor at HUST) closely.
+	They are really nice people and I enjoy the time working with them.
+
+</p>
+<p>
+	<b>Reseach Interest:</b> My reseach interest focus on the <b style="color:blue;">Computer Vision</b> & <b style="color:blue;">Medical Image Analysis</b>,
+	especially on developing novel methods to <b style="color:blue">reduce the effort of annotation</b> for computer-aided detection & diagnosis and <b style="color:blue">design foundation models</b> for medical & health.
+
+</p>
+
+
+
+
+
+<h2><a id="news" ><font color="#CB4335">🔥 Recent News</font></a></h2>
+
+<!--<ul><div style="height:200px; width:fit-content; overflow:auto; background:#FFFFFF;">-->
+<ul><div style="height:130px; width:fit-content; overflow:auto; background:#FFFFFF;">
+
+	<li>
+		<p>[04/2023] The code for <a href="https://github.com/MrGiovanni/SyntheticTumors">synthetic tumor</a> is released </p>
+	</li>
+	<li>
+		<p>[03/2023] One paper accepted by CVPR 2023
+	</li>
+	<li>
+		<p>[10/2022] One paper accepted by Medical Meets NeurIPS 2022
+	</li>
+
+</div></ul>
+
+
+<!-- <a href="pub.html">[Full List]</a> -->
+<h2><a id="pub" ><font color="#CB4335">📝 Publications</font></a> 
+	</h2>
+
+<p>*: equivalent contribution, <sup>#</sup>:  corresponding author.<br></p>
+
+<table id="tbPublications" width="100%">
+
+	<td width="230">
+		<img src="assets/images/project/liver_rsna.png" width="210px" style="box-shadow: 4px 4px 8px #888">
+		</td>
+		<td style="line-height:1.2;">
+		<h3 style="color:black">Liver Tumor Synthesis: Facilitating Annotation-Free Deep Learning for Cancer Detection and Localization</h3>
+		<p style="line-height:1.2;">
+			<b>Qixin Hu</b>, Yixion Chen, Junfei Xiao, Shuwen Sun, Jieneng Chen, Alan Yuille, Zongwei Zhou<sup>#</sup><br>
+			<em>In Submmition to <b>RSNA</b> 2023.</em>
+		</p></td>
+	</tr>
+
+	<td width="230">
+		<img src="assets/images/project/animal3D.jpg" width="210px" style="box-shadow: 4px 4px 8px #888">
+		</td>
+		<td style="line-height:1.2;">
+		<h3 style="color:black">Animal3D: A Comprehensive Dataset of 3D Animal Pose and Shape</h3>
+		<p style="line-height:1.2;">
+			Jiacong Xu, Yi Zhang, Jiawei Peng, Wufei Ma, Artur Jesslen, Pengliang Ji, <b>Qixin Hu</b>, et al.<br>
+			<em>In Submmition to <b>ICCV</b> 2023.</em>
+		</p></td>
+	</tr>
+
+	<td width="230">
+		<img src="assets/images/project/paradigm_shift.png" width="210px" style="box-shadow: 4px 4px 8px #888">
+		</td>
+		<td style="line-height:1.2;">
+		<h3 style="color:black">Label-free Liver Tumor Segmentation</h3>
+		<p style="line-height:1.2;">
+			<b>Qixin Hu</b>, Yixiong Chen, Junfei Xiao, Shuwen Sun, Jie-Neng Chen, Alan Yuille, Zongwei Zhou<sup>#</sup><br>
+			<em>IEEE Computer Vision and Pattern Recognition (<b>CVPR</b>) 2023.</em>
+			<p>
+				<a href="https://arxiv.org/pdf/2303.14869.pdf" target="_blank">[Publication]</a> 
+				<a href="https://github.com/MrGiovanni/SyntheticTumors" target="_blank">[Code]</a> 
+				<a href="./assets/files/liver_tumor/Synthetic Tumors 10Min.pdf" target="_blank">[Slides]</a> 
+				<a href="./assets/files/liver_tumor/poster_mednips.pdf" target="_blank">[Poster]</a> 
+				<a href="https://www.youtube.com/watch?v=bJpI9tCTsuA" target="_blank">[Zongwei's Talk]</a> 
+				<a href="https://www.youtube.com/watch?v=Alqr3vQSDro" target="_blank">[Alan's Talk]</a>
+			</p>
+		</p></td>
+	</tr>
+
+
+	<td width="230">
+		<img src="assets/images/project/livertumorturing.png" width="210px" style="box-shadow: 4px 4px 8px #888">
+		<!--<img src="assets/images/project/overview-3dnav.png" width="200px" style="box-shadow: 4px 4px 8px #888">-->
+		</td>
+		<td style="line-height:1.2;">
+		<h3 style="color:black">Synthetic Tumors Make AI Segment Tumors Better</h3>
+		<p style="line-height:1.2;">
+			<b>Qixin Hu</b>, Junfei Xiao, Yixiong Chen, Shuwen Sun, Jie-Neng Chen, Alan Yuille, Zongwei Zhou<sup>#</sup><br>
+			<em>Medical Imaging meets NeurIPS (<b>NIPSw</b>) 2022.</em>
+			<p>
+				<a href="https://arxiv.org/pdf/2210.14845.pdf" target="_blank">[Publication]</a> 
+				<a href="https://github.com/MrGiovanni/SyntheticTumors" target="_blank">[Code]</a> 
+				<a href="./assets/files/liver_tumor/Synthetic Tumors 10Min.pdf" target="_blank">[Slides]</a> 
+				<a href="./assets/files/liver_tumor/poster_mednips.pdf" target="_blank">[Poster]</a> 
+			</p>
+		</p></td>
+	</tr>
+
+	<td width="230">
+		<img src="assets/images/project/speckle.png" width="210px" style="box-shadow: 4px 4px 8px #888">
+		</td>
+		<td style="line-height:1.2;">
+		<h3 style="color:black">Object recognition for remarkably small field-of-view with speckles</h3>
+		<p style="line-height:1.2;">
+			<b>Qixin Hu</b>, Siyan Xu, Xue-wen Chen, Xinggang Wang, Ken Xingze Wang<sup>#</sup><br>
+			<em>Applied Physics Letters (<b>APL</b>) 2021.</em>
+			<p>
+				<a href="https://aip.scitation.org/doi/abs/10.1063/5.0040343" target="_blank">[Publication]</a> 
+			</p>
+		</p></td>
+	</tr>
+
+</table>
+
+
+
+<h2><a id="exp" ><font color="#CB4335">💻 Experience</font></a></h2>
+
+<table style="margin-top:-0.7em;"><tbody>
+
+
+<tr>
+	<td width="800">
+		<h4><a href="https://www.cs.jhu.edu/" target="_blank" rel="external">
+			Department of Cognitive Science and Computer Science, Johns Hopkins Univeristy </a><br>
+			Baltimore, USA (2022/05 - now)</h4>
+		<ul>
+			<li style="line-height:1.5;">Position: <b>Research Intern</b> <br> 
+			<li>Supervisor: 
+				Prof. <a href="https://www.cs.jhu.edu/~ayuille/" target="_blank" rel="external">
+					Alan L. Yuille</a> (Bloomberg Distinguished Professor) &
+				<p>&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;Dr. <a href="https://www.zongweiz.com/">
+					Zongwei Zhou
+				</a></p>
+			<li style="line-height:1.5;">Project: Segment medical tumor using synthetic tumor<br></li>
+		</ul>
+	</td>
+	<td width="80px">
+		<img src="./assets/images/logo/jhu.png" height="90px" >
+	</td>
+</tr>
+
+<tr>
+	<td width="800">
+		<h4><a href="https://www.khoury.northeastern.edu/" target="_blank" rel="external">
+			Khoury College of Computer Sciences, Northeastern Univeristy </a><br>
+			Boston, USA (2022/05 - 2022/11)</h4>
+		<ul>
+			<li style="line-height:1.5;">Position: <b>Research Intern</b> <br> 
+			<li>Supervisor: 
+				<a href="https://scholar.google.com/citations?user=0hHqYoAAAAAJ&hl=zh-CN&oi=ao" target="_blank" rel="external">
+					Huaizu Jiang</a>
+			<li style="line-height:1.5;">Project: Action-guide 3D human-object reconstruction<br></li>
+		</ul>
+	</td>
+	<td>
+		<img src="./assets/images/logo/neu.png" height="80px">
+	</td>
+</tr>
+
+<tr>
+	<td width="800">
+		<h4><a href="https://www.sist.tsinghua.edu.cn/sisten/" target="_blank" rel="external">
+			Department of Automation, Tsinghua Univeristy </a><br>
+			Beijing, China (2021/06 - 2021/09)</h4>
+		<ul>
+			<li style="line-height:1.5;">Position: <b>Research Intern</b> <br> 
+			<li>Supervisor: 
+				<a href="http://www.liuyebin.com/" target="_blank" rel="external">
+					Yebin Liu</a>
+			<li style="line-height:1.5;">Project: Image-based 3D human reconstruction<br></li>
+		</ul>
+	</td>
+	<td>
+
+		<img src="./assets/images/logo/thu.png" height="100px">
+	</td>
+</tr>
+
+<tr>
+	<td width="800">
+		<h4><a href="http://english.phys.hust.edu.cn/" target="_blank" rel="external">
+				School of Physics, Huazhong Univeristy of Science and Technology </a><br>
+			Wuhan, China (2019/04 - 2020/04)</h4>
+		<ul>
+			<li style="line-height:1.5;">Position: <b>Team Leader</b> <br> 
+			<li>Supervisor: 
+				<a href="http://phys.hust.edu.cn/info/1225/2480.htm" target="_blank" rel="external">
+					Ming Yang</a>
+			<li style="line-height:1.5;">Project: National Student Innovation and Entrepreneurship Training Program<br></li>
+		</ul>
+	</td>
+	<td>
+		<img src="./assets/images/logo/phy-hust.png" height="100px" align="middle">
+	</td>
+</tr>
+
+</tbody></table>
+
+
+
+<h2><a id="edu" ><font color="#CB4335">📖 Education</font></a></h2>
+
+<table><tbody>
+
+<tr>
+	<td width="800">
+		<h4> 
+			<a href="http://english.hust.edu.cn/" target="_blank">Huazhong University of Science & Technology</a> <br> 
+			Wuhan, China (Sep. 2016 - Jun. 2020) </h4>
+		<ul>
+			<li><b>B.S in Physics, School of Physics</b></li>
+			<li>GPA: 3.90/4.00</li>
+		</ul>
+	</td>
+	<td><img id="school_logo" src="./assets/images/logo/hust.jpeg" height="110px"></td>
+</tr>
+
+<tr>
+	<td width="1000">
+		<h4> 
+			<a href="http://english.hust.edu.cn/" target="_blank">Huazhong University of Science & Technology</a> <br> 
+			Wuhan, China (Sep. 2020 - Jun. 2023) </h4>
+		<ul>
+			<li><b>M.Sc. in Physics, School of Physics</b></li>
+
+			<li>Research Interest: Computer Science & Medical Image Analysis</li>
+		</ul>
+	</td>
+</tr>
+<!--<tr></tr>-->
+</tbody></table>
+
+
+
+<h2><font color="#CB4335">🏅 Honors and Awards</font></h2>
+<ul>
+	<li>
+		2021.10 Outstanding Graduate Student. 
+	</li>
+	<li>
+		2020.06 Honored Undergraduates. 
+	</li>
+	<li>
+		2018.10 National Encouragement Scholarship.
+	</li>
+</ul>
+
+<h2><font color="#CB4335">📄 Patents</font></h2>
+<ul>
+	<li>
+		<p>Non-line-of-sight object identification method, system and device. </p>
+		<p>Wang Xingze, <b>Qixin Hu</b> </p>
+		<p>Granted on March 28, 2022; CN114202685A.</p>
+	</li>
+</ul>
+
+
+<!-- <h2><font color="#CB4335">💬 Talks</font></h2>
+<ul>
+	<li style="line-height:1.5;">
+		Navigation: Mapping & Planning <br> 
+		08/09/2022 &nbsp; EPIC-Lab 2022 Summer Robotics Seminar, Peking University <br>
+		<a href="https://docs.google.com/presentation/d/1wToBXyelvD9HcMde6mJMLpW17ursHK-s/edit#slide=id.p1" 
+		target="_blank">[Slides]</a> &nbsp;
+	</li>
+	<li style="line-height:1.5;">
+		Vision in Scene Exploration <br> 
+		26/02/2022 &nbsp; EPIC-Lab 2022 Spring Seminar, Peking University <br>
+		<a href="https://docs.google.com/presentation/d/1NF86qKLDzS4ptB754J2TK1dRsFKhsz2s/edit?usp=
+		sharing&ouid=107951664338847102585&rtpof=true&sd=true" target="_blank">[Slides]</a> &nbsp;
+	</li>
+</ul> -->
+
+<!--
+<h2><font color="#CB4335">Academic Service</font></h2>
+
+Reviewer of the following conferences/journals:
+<br>
+<br>
+ECCV 2022<br>
+NeurIPS 2022<br>
+AAAI 2023<br> -->
+<!--2021 IEEE CVPR WORKSHOP ON FAIR, DATA EFFICIENT AND TRUSTED COMPUTER VISION<br>-->
+
+<!--<h2><font color="#CB4335">Teaching</font></h2>
+    <ul>
+		<li>Graduate Teaching Assistant, CSCI 103 Introduction to Programming - 2022 Fall</li>
+    </ul>
+<br>-->
+
+
+<div id="footer1">
+	<!-- <h2> </h2>
+		<div align="center">
+		  <small>This page has been visited for
+			<a href="https://www.easycounter.com/">
+			<img src="https://www.easycounter.com/counter.php?dichang" border="0" alt="HTML Hit Counter"></a>times</small>
+		  </div> 
+	</div> -->
+<!-- <p><center>
+	<div align="center" style="width:20%">
+	  	<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=grr8tSJTdsbdU-vHO6Of-5W7jpLTZvSVYTu6BUgf02M"></script>
+	</div>        
+</center></p> -->
+<p align="center"><font color="#999999">Last update: May 9th, 2023</font></p>
+</body>
+
+
+
+</html>
