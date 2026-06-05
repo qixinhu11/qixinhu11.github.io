@@ -24,56 +24,55 @@
 
 <body>
 
-  <!-- ===== NAVIGATION ===== -->
+  <!-- ===== TOP NAV ===== -->
   <nav class="nav">
-    <div class="nav-inner">
-      <a href="#" class="nav-logo"><span>Q.</span> Hu</a>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#opensource">Open Source</a></li>
-        <li><a href="#publications">Papers</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#honors">Honors</a></li>
-        <li><a href="#service">Service</a></li>
-      </ul>
-    </div>
+    <span class="nav-prompt"><span class="nav-sigil">$</span> <b>qixinhu</b>:~ —</span>
+    <ul class="nav-links">
+      <li><a href="#about">about</a></li>
+      <li><a href="#news">news</a></li>
+      <li><a href="#opensource">open-source</a></li>
+      <li><a href="#publications">papers</a></li>
+      <li><a href="#experience">experience</a></li>
+      <li><a href="#honors">honors</a></li>
+      <li><a href="#service">service</a></li>
+    </ul>
   </nav>
 
+  <!-- ===== SIDEBAR ===== -->
+  <aside class="sidebar fade-in">
+    <div class="avatar-wrap">
+      <img src="./assets/images/me.jpg" alt="Qixin Hu" class="avatar">
+    </div>
+
+    <h1 class="id-name">Qixin Hu <span class="id-name-cn">胡琪鑫</span></h1>
+
+    <div class="id-role"><span class="k">role</span> = <span class="v">"PhD Student @USC"</span></div>
+
+    <div class="id-meta">
+      <div class="id-meta-row"><i class="fa-solid fa-location-dot"></i><span>University of Southern California,
+          Los Angeles, CA, USA</span></div>
+      <div class="id-meta-row"><i class="fa-solid fa-envelope"></i><span><a href="mailto:qixinhu@usc.edu">qixinhu
+            [at] usc [dot] edu</a></span></div>
+    </div>
+
+    <div class="id-socials">
+      <a href="https://scholar.google.com/citations?user=EqD5GP8AAAAJ&hl=zh-CN&oi=ao" target="_blank"
+        title="Google Scholar"><i class="fa-brands fa-google-scholar"></i></a>
+      <a href="https://github.com/qixinhu11" target="_blank" title="GitHub"><i class="fa-brands fa-github"></i></a>
+      <a href="https://orcid.org/0000-0002-7374-2000" target="_blank" title="ORCID"><i
+          class="fa-brands fa-orcid"></i></a>
+    </div>
+
+    <div class="id-status"><span class="dot"></span>open to collaboration</div>
+  </aside>
+
   <!-- ===== MAIN CONTENT ===== -->
-  <div class="container">
-
-    <!-- ===== HERO ===== -->
-    <header class="hero fade-in">
-      <div class="hero-photo-wrapper">
-        <img src="./assets/images/me.jpg" alt="Qixin Hu" class="hero-photo">
-      </div>
-      <div class="hero-info">
-        <h1 class="hero-name">Qixin Hu <span class="hero-name-cn">胡琪鑫</span></h1>
-        <p class="hero-title">PhD Student <a href="https://viterbischool.usc.edu/" target="_blank">@USC</a></p>
-        <p class="hero-affiliation"><i class="fa-solid fa-location-dot"></i>&nbsp; University of Southern California,
-          Los Angeles, CA, USA</p>
-        <p class="hero-email"><i class="fa-solid fa-envelope"></i>&nbsp; <a href="mailto:qixinhu@usc.edu">qixinhu [at]
-            usc [dot] edu</a></p>
-
-        <div class="social-links">
-          <a href="https://scholar.google.com/citations?user=EqD5GP8AAAAJ&hl=zh-CN&oi=ao" target="_blank"
-            title="Google Scholar">
-            <i class="fa-brands fa-google-scholar"></i>
-          </a>
-          <a href="https://github.com/qixinhu11" target="_blank" title="GitHub">
-            <i class="fa-brands fa-github"></i>
-          </a>
-          <a href="https://orcid.org/0000-0002-7374-2000" target="_blank" title="ORCID">
-            <i class="fa-brands fa-orcid"></i>
-          </a>
-        </div>
-      </div>
-    </header>
+  <main class="main">
+    <div class="container-inner">
 
     <!-- ===== ABOUT ME ===== -->
     <section id="about" class="fade-in">
-      <h2 class="section-title"><span class="emoji">🧑‍🎓</span> About Me</h2>
+      <h2 class="section-title">About Me</h2>
       <div class="glass-card">
         <p class="about-text">
           Hi, my name is Qixin Hu (胡琪鑫). If you can't read Pinyin, you can pronounce it as <em>"Chee-sheen Who."</em>
@@ -106,8 +105,9 @@
 
     <!-- ===== NEWS ===== -->
     <section id="news" class="fade-in">
-      <h2 class="section-title"><span class="emoji">🔥</span> Recent News</h2>
+      <h2 class="section-title">Recent News</h2>
       <div class="glass-card">
+        <div class="news-viewport">
         <div class="news-list stagger">
           <div class="news-item">
             <span class="news-date">06/2026</span>
@@ -129,11 +129,6 @@
               <a href="https://github.com/NVlabs/LongLive" target="_blank">code</a>.</span>
           </div>
           <div class="news-item">
-            <span class="news-date">04/2026</span>
-            <span class="news-content">I will join <a href="https://aws.amazon.com/" target="_blank">Agentic AI
-                Team, Amazon Web Services (AWS)</a> as an Applied Scientist Intern this summer.</span>
-          </div>
-          <div class="news-item">
             <span class="news-date">03/2026</span>
             <span class="news-content"> Code for <strong>MemRoPE</strong> is released. We also made a <strong><a
                   href="https://memrope.github.io/" target="_blank">demo website</a></strong> for it.</span>
@@ -151,41 +146,9 @@
               Research Intern working on video generation.</span>
           </div>
           <div class="news-item">
-            <span class="news-date">01/2026</span>
-            <span class="news-content">One paper on eosinophil counting with green learning is accepted by <strong>ISBI
-                2026</strong>.</span>
-          </div>
-          <div class="news-item">
-            <span class="news-date">08/2025</span>
-            <span class="news-content">I will serve as the Program Committee of <strong>AAAI 2026</strong>.</span>
-          </div>
-          <div class="news-item">
-            <span class="news-date">05/2025</span>
-            <span class="news-content">I will serve as a Reviewer of <strong>NeurIPS 2025</strong>.</span>
-          </div>
-          <div class="news-item">
-            <span class="news-date">03/2025</span>
-            <span class="news-content">I will serve as a Reviewer of <strong>APSIPA Transactions on Signal and
-                Information Processing</strong>.</span>
-          </div>
-          <div class="news-item">
-            <span class="news-date">12/2024</span>
-            <span class="news-content">One paper accepted by <strong>Generative Machine Learning Models in Medical Image
-                Computing</strong>.</span>
-          </div>
-          <div class="news-item">
             <span class="news-date">08/2024</span>
             <span class="news-content">Awarded <a href="https://graduateschool.usc.edu/fellowships/"
                 target="_blank"><strong>Viterbi Fellowship</strong></a>.</span>
-          </div>
-          <div class="news-item">
-            <span class="news-date">06/2024</span>
-            <span class="news-content">One paper on multi-organ trauma detection via VLM accepted by <strong>MICCAI
-                2024</strong>.</span>
-          </div>
-          <div class="news-item">
-            <span class="news-date">07/2023</span>
-            <span class="news-content">I will serve as a Reviewer of <strong>ICML Workshop 2023</strong>.</span>
           </div>
           <div class="news-item">
             <span class="news-date">06/2023</span>
@@ -202,13 +165,28 @@
                 2023</strong>.</span>
           </div>
         </div>
+        </div>
       </div>
     </section>
 
     <!-- ===== OPEN SOURCE CONTRIBUTIONS ===== -->
     <section id="opensource" class="fade-in">
-      <h2 class="section-title"><span class="emoji">🚀</span> Open Source Contributions</h2>
+      <h2 class="section-title">Open Source Contributions</h2>
       <div class="oss-grid stagger">
+
+        <div class="glass-card oss-card">
+          <div class="oss-header">
+            <i class="fa-brands fa-github oss-icon"></i>
+            <div>
+              <div class="oss-name"><a href="https://longlive-rag.github.io/" target="_blank">LongLive-RAG</a></div>
+              <div class="oss-repo"><a href="https://github.com/qixinhu11/LongLive-RAG"
+                  target="_blank">qixinhu11/LongLive-RAG</a></div>
+            </div>
+          </div>
+          <p class="oss-desc">Lead Author &amp; Primary Maintainer. Designed a general retrieval-augmented framework
+            that lets long video generation models retrieve relevant prior content instead of relying solely on the
+            recent context window.</p>
+        </div>
 
         <div class="glass-card oss-card">
           <div class="oss-header">
@@ -223,20 +201,6 @@
           </div>
           <p class="oss-desc">Developed the inference engine for infinite video generation. Upgraded the existing
             architecture by designing an online relative RoPE to support infinite-length outputs.</p>
-        </div>
-
-        <div class="glass-card oss-card">
-          <div class="oss-header">
-            <i class="fa-brands fa-github oss-icon"></i>
-            <div>
-              <div class="oss-name"><a href="https://longlive-rag.github.io/" target="_blank">LongLive-RAG</a></div>
-              <div class="oss-repo"><a href="https://github.com/qixinhu11/LongLive-RAG"
-                  target="_blank">qixinhu11/LongLive-RAG</a></div>
-            </div>
-          </div>
-          <p class="oss-desc">Lead Author &amp; Primary Maintainer. Designed a general retrieval-augmented framework
-            that lets long video generation models retrieve relevant prior content instead of relying solely on the
-            recent context window.</p>
         </div>
 
         <div class="glass-card oss-card">
@@ -267,25 +231,12 @@
             competitive liver tumor segmentation relying exclusively on synthetic training data.</p>
         </div>
 
-        <div class="glass-card oss-card">
-          <div class="oss-header">
-            <i class="fa-brands fa-github oss-icon"></i>
-            <div>
-              <div class="oss-name"><a href="https://github.com/med-air/TraumaDet" target="_blank">TraumaDet</a></div>
-              <div class="oss-repo"><a href="https://github.com/med-air/TraumaDet" target="_blank">med-air/TraumaDet</a>
-              </div>
-            </div>
-          </div>
-          <p class="oss-desc">Co-Author &amp; Core Contributor. Engineered and integrated the vision-language fusion
-            module, advancing the model's multi-organ trauma detection capabilities.</p>
-        </div>
-
       </div>
     </section>
 
     <!-- ===== PUBLICATIONS ===== -->
     <section id="publications" class="fade-in">
-      <h2 class="section-title"><span class="emoji">📝</span> Publications</h2>
+      <h2 class="section-title">Selected Publications</h2>
       <div class="pub-grid stagger">
 
         <!-- Pub: LongLive-RAG -->
@@ -297,7 +248,7 @@
             <div class="pub-info">
               <h3 class="pub-title">LongLive-RAG: A General Retrieval-Augmented Framework for Long Video Generation
               </h3>
-              <p class="pub-venue">Submitted to NeurIPS 2026</p>
+              <p class="pub-venue">arXiv 2026</p>
               <p class="pub-authors">Qixin Hu, Shuai Yang, Wei Huang, Song Han, Yukang Chen</p>
               <div class="pub-links">
                 <a class="pub-link" href="https://arxiv.org/abs/2606.02553" target="_blank"><i
@@ -341,7 +292,7 @@
             </div>
             <div class="pub-info">
               <h3 class="pub-title">MemRoPE: Training-Free Infinite Video Generation via Evolving Memory Tokens</h3>
-              <p class="pub-venue">Submitted to ECCV 2026</p>
+              <p class="pub-venue">arXiv 2026</p>
               <p class="pub-authors">Youngrae Kim*, Qixin Hu*, C.-C. Jay Kuo, Peter A. Beerel<br>*Equal
                 Contribution</p>
               <div class="pub-links">
@@ -357,6 +308,7 @@
         </div>
 
         <!-- Pub: Eosinophil -->
+        <!--
         <div class="glass-card">
           <div class="pub-card">
             <div class="pub-image-wrapper">
@@ -372,6 +324,7 @@
             </div>
           </div>
         </div>
+        -->
 
         <!-- Pub: Analyzing Tumors by Synthesis -->
         <div class="glass-card">
@@ -392,6 +345,7 @@
         </div>
 
         <!-- Pub: Trauma Detection -->
+        <!--
         <div class="glass-card">
           <div class="pub-card">
             <div class="pub-image-wrapper">
@@ -411,8 +365,10 @@
             </div>
           </div>
         </div>
+        -->
 
         <!-- Pub: Synthetic Data as Validation -->
+        <!--
         <div class="glass-card">
           <div class="pub-card">
             <div class="pub-image-wrapper">
@@ -429,6 +385,7 @@
             </div>
           </div>
         </div>
+        -->
 
         <!-- Pub: Animal3D -->
         <div class="glass-card">
@@ -456,7 +413,7 @@
         <!-- Pub: Label-free Liver Tumor -->
         <div class="glass-card">
           <div class="pub-card">
-            <div class="pub-image-wrapper">
+            <div class="pub-image-wrapper framed">
               <img src="assets/images/project/paradigm_shift.png" alt="Label-free Liver Tumor Segmentation">
             </div>
             <div class="pub-info">
@@ -487,6 +444,7 @@
         </div>
 
         <!-- Pub: Synthetic Tumors NeurIPSW -->
+        <!--
         <div class="glass-card">
           <div class="pub-card">
             <div class="pub-image-wrapper">
@@ -511,6 +469,7 @@
             </div>
           </div>
         </div>
+        -->
 
         <!-- Pub: Speckles -->
         <!--
@@ -538,22 +497,21 @@
 
     <!-- ===== EXPERIENCE ===== -->
     <section id="experience" class="fade-in">
-      <h2 class="section-title"><span class="emoji">💻</span> Experience</h2>
+      <h2 class="section-title">Experience</h2>
 
-      <h3 class="subsection-title">Industry Experience</h3>
       <div class="exp-grid stagger" style="margin-bottom: 32px;">
         <!-- AWS -->
         <div class="glass-card">
           <div class="exp-card">
             <div class="exp-logo">
-              <img src="./assets/images/logo/aws.webp" alt="AWS">
+              <img src="./assets/images/logo/aws.svg" alt="AWS">
             </div>
             <div class="exp-info">
               <h4 class="exp-institution">
-                <a href="https://aws.amazon.com/" target="_blank">Agentic AI Team, Amazon Web Services (AWS)</a>
+                <a href="https://aws.amazon.com/" target="_blank">AWS</a>
               </h4>
               <ul class="exp-details">
-                <li>Position: Applied Scientist Intern (Jun 2026 – Current)</li>
+                <li>Applied Scientist Intern (Jun 2026 – Current)</li>
                 <li>Topic: GenAI and Agentic Systems</li>
                 <li>Managers: <a href="https://ppengttang.github.io/" target="_blank">Dr. Peng Tang</a> & <a
                     href="https://www.linkedin.com/in/kunwar-yashraj-singh-62ba5552/" target="_blank">Yash Singh</a>
@@ -566,7 +524,7 @@
         <div class="glass-card">
           <div class="exp-card">
             <div class="exp-logo">
-              <img src="./assets/images/logo/nvidia.png" alt="NVIDIA">
+              <img src="./assets/images/logo/nvidia.svg" alt="NVIDIA">
             </div>
             <div class="exp-info">
               <h4 class="exp-institution">
@@ -574,7 +532,7 @@
                   href="https://www.nvidia.com/" target="_blank">NVIDIA</a>
               </h4>
               <ul class="exp-details">
-                <li>Position: Research Intern (Jan 2026 – May 2026)</li>
+                <li>Research Intern (Jan 2026 – May 2026)</li>
                 <li>Topic: Video Generation</li>
                 <li>Managers: <a href="https://yukangchen.com/" target="_blank">Dr. Yukang Chen</a> & <a
                     href="https://hanlab.mit.edu/songhan" target="_blank">Prof. Song Han</a></li>
@@ -584,10 +542,10 @@
         </div>
       </div>
 
+      <!--
       <h3 class="subsection-title">Academic Experience</h3>
       <div class="exp-grid stagger">
 
-        <!-- CUHK -->
         <div class="glass-card">
           <div class="exp-card">
             <div class="exp-logo">
@@ -606,7 +564,6 @@
           </div>
         </div>
 
-        <!-- JHU -->
         <div class="glass-card">
           <div class="exp-card">
             <div class="exp-logo">
@@ -627,7 +584,6 @@
           </div>
         </div>
 
-        <!-- HUST - EIC -->
         <div class="glass-card">
           <div class="exp-card">
             <div class="exp-logo">
@@ -647,11 +603,12 @@
         </div>
 
       </div>
+      -->
     </section>
 
     <!-- ===== HONORS ===== -->
     <section id="honors" class="fade-in">
-      <h2 class="section-title"><span class="emoji">🏅</span> Honors & Awards</h2>
+      <h2 class="section-title">Honors &amp; Awards</h2>
       <ul class="honors-list stagger">
         <li><span class="honor-year">2024</span> USC Viterbi School of Engineering / Graduate School Fellowship</li>
         <li><span class="honor-year">2022</span> First Class Zhixing Outstanding Student Scholarship</li>
@@ -663,7 +620,7 @@
 
     <!-- ===== ACADEMIC SERVICE ===== -->
     <section id="service" class="fade-in">
-      <h2 class="section-title"><span class="emoji">📙</span> Academic Service</h2>
+      <h2 class="section-title">Academic Service</h2>
       <div class="service-tags stagger">
         <span class="service-tag">Reviewer · NeurIPS 2026</span>
         <span class="service-tag">Reviewer · ICIP 2026</span>
@@ -680,7 +637,8 @@
       <p>Last updated: <span id="last-updated"></span></p>
     </footer>
 
-  </div>
+    </div>
+  </main>
 
   <!-- ===== SCROLL ANIMATION SCRIPT ===== -->
   <script>
